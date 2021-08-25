@@ -24,11 +24,10 @@ header .container{
     justify-content: space-between;
 }
 
-header .logo{
-    margin-left: 5px;
-    color: var(--vermelho);
-    font-family: 'Arial Black';
-    font-size: 40px;
+header .logo-pag-login{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 90px;
 }
 
 header nav a{

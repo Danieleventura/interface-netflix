@@ -1,0 +1,65 @@
+
+main .container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main .title{
+    margin-bottom: 30px;
+    color: white;
+    font-size: 50px;
+    font-weight:normal;
+}
+
+main .profiles{
+    display: flex;
+    flex-direction:row;
+    align-items: center; 
+}
+
+main .profiles a{
+    display: flex;
+    flex-direction:column;
+    align-items: center; 
+    text-decoration: none;
+    margin-right: 30px;
+    color: gray;
+    font-size: 20px;
+}
+
+main .profiles img{
+    margin-bottom: 20px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+main .profiles a:hover {
+    color: white;
+}
+main .profiles img:hover {
+    border: white solid 3px;
+    border-color: white;
+    color: white;
+}
+
+main .btn{
+    margin-top: 40px;
+    background-color: transparent !important;
+    border: gray solid 1px;
+    border-radius: 0% !important;
+    font-size: 17px !important;
+    color: grey;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    cursor: pointer;   
+}
+
+main .btn:hover{
+    color: white;
+    border-color: white;
+}
