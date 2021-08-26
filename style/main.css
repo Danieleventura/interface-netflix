@@ -96,7 +96,7 @@ body{
 }
 
 .filme-principal .container{
-    width: 50%;
+    width: 60%;
     margin-left: 40px;
 }
 
@@ -160,5 +160,6 @@ body{
 }
 
 .carrosel-filmes{
-    margin-top: 5px;
+    margin-top: 20px;
+    font-weight: bold;
 }
